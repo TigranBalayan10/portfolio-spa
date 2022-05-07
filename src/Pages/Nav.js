@@ -11,7 +11,6 @@ function Nav() {
           width="54"
           height="54"
           viewBox="0 0 54 54"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
         </svg>
@@ -19,22 +18,22 @@ function Nav() {
       </div>
       <ul class="flex justify-evenly gap-20 mr-10">
         <li class="mr-8">
-          <Link to="/about" class="flex text-white text-2xl">
+          <Link to="/about" class="flex text-white text-lg text-bold hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900">
             About Me
           </Link>
         </li>
         <li class="mr-8">
-          <Link to="/project" class="flex text-white text-2xl">
+          <Link to="/project" class="flex text-white text-lg text-bold hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900">
             Project
           </Link>
         </li>
         <li class="mr-8">
-          <Link to="/contact" class="flex text-white text-2xl">
+          <Link to="/contact" class="flex text-white text-bold text-lg hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900">
             Contact
           </Link>
         </li>
         <li class="mr-8">
-          <Link to="/resume" class="flex text-white text-2xl">
+          <Link to="/resume" class="flex text-white text-bold text-lg hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900">
             Resume
           </Link>
         </li>

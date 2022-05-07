@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
 import "../index.css";
 
 function Project() {
@@ -14,15 +15,22 @@ function Project() {
           alt="Sunset in the mountains"
         ></img>
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Expense Tracker App</div>
-          <p class="text-gray-700 text-base">
+          <div class="font-bold text-xl mb-2 text-white">Expense Tracker App</div>
+          <a href="https://github.com/TigranBalayan10/expense-tracker">
+        <FontAwesomeIcon
+          className="text-gray-600 hover:text-zinc-900 mb-2"
+          icon={faGithub}
+          size="3x"
+          id="icon-git"
+        ></FontAwesomeIcon>
+        <a href="https://floating-dusk-25843.herokuapp.com/">
+        <FontAwesomeIcon icon={faFirefoxBrowser} size="3x" className="text-gray-600 hover:text-red-700 mb-2 ml-2"></FontAwesomeIcon></a>
+      </a>
+          <p class="text-white text-base">
             This is a web application that allows users to track their expenses
             and income. The user can create a new account, sign in, and sign
             out. The user can add an expense, edit an expense, delete an
-            expense, and view a pie chart of their expenses. The user can add a
-            tag, edit a tag, and delete a tag. The user can view their expenses
-            and income in a pie chart. The user can view their expenses and
-            income in a bar chart. After signing out, the user's data is saved.
+            expense, and view a pie chart of their expenses.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2">
