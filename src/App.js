@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Pages/Header";
 import Footer from "./Pages/Footer";
 import About from "./Pages/About";
@@ -13,10 +13,10 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/about" element={<About />}/>
-          <Route path="/project" element={<Project />}/>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="/resume" element={<Resume />}/>
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </main>
       <Footer />
