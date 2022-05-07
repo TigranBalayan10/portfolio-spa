@@ -10,11 +10,14 @@ function Project() {
         <div className="col-4 position-relative">
           <a href="https://github.com/TigranBalayan10/expense-tracker">
             <FontAwesomeIcon
-              className="position-absolute"
+              className="position-absolute m-5"
               icon={faGithub}
               size="4x"
               id="icon-git"
             ></FontAwesomeIcon>
+          </a>
+          <a href="https://floating-dusk-25843.herokuapp.com/" target="_blank" className="position-absolute mt-2">
+              <h3>Expense Tracker</h3>
           </a>
           <img
             src={require(`../assets/images/test.jpg`)}
