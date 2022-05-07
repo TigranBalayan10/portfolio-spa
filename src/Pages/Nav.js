@@ -5,24 +5,24 @@ import "./nav.css";
 
 function Nav() {
   return (
-    <nav class="navbar navbar-light bg-info">
-      <div class="container-fluid">
-        <a class="navbar-brand">Tigran Balayan</a>
-        <form class="d-flex gap-5 me-5">
-          <Link to="/about" class="btn btn-outline-success border-0">
+    <nav className="navbar navbar-light bg-info">
+      <div className="container-fluid">
+        <a className="navbar-brand">Tigran Balayan</a>
+        <form className="d-flex gap-5 me-5">
+          <Link to="/about" className="btn btn-outline-success border-0">
             About
           </Link>
           <Link
             to="/project"
-            class="btn btn-outline-success border-0"
+            className="btn btn-outline-success border-0"
             id="header-link"
           >
             Project
           </Link>
-          <Link to="/contact" class="btn btn-outline-success border-0">
+          <Link to="/contact" className="btn btn-outline-success border-0">
             Contact
           </Link>
-          <Link to="/resume" class="btn btn-outline-success border-0">
+          <Link to="/resume" className="btn btn-outline-success border-0">
             Resume
           </Link>
         </form>

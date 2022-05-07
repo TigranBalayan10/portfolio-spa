@@ -49,7 +49,7 @@ function Contact() {
         </div>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p classNameName="error-text">{errorMessage}</p>
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
