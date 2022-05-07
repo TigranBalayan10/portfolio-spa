@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 function Contact() {
   const [formState, setFormState] = useState({
