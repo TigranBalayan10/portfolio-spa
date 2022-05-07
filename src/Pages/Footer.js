@@ -15,15 +15,15 @@ function Footer() {
             icon={faGithub}
             size="4x"
             className="text-gray-600 hover:text-zinc-900"
-            target='_blank'
+            target="_blank"
           ></FontAwesomeIcon>
         </a>
-        <a href="https://twitter.com/Tiko_102">
+        <a href="https://twitter.com/Tiko_102" target="_blank">
           <FontAwesomeIcon
             icon={faTwitter}
             size="4x"
             className="text-gray-600 hover:text-blue-700"
-            target='_blank'
+            
           ></FontAwesomeIcon>
         </a>
         <a href="https://www.facebook.com/tigran.balayan.1">
@@ -31,7 +31,7 @@ function Footer() {
             icon={faFacebook}
             size="4x"
             className="text-gray-600 hover:text-blue-600"
-            target='_blank'
+            target="_blank"
           ></FontAwesomeIcon>
         </a>
         <a href="https://www.facebook.com/tigran.balayan.1">
@@ -39,7 +39,7 @@ function Footer() {
             icon={faLinkedin}
             size="4x"
             className="text-gray-600 hover:text-blue-400"
-            target='_blank'
+            target="_blank"
           ></FontAwesomeIcon>
         </a>
       </div>
