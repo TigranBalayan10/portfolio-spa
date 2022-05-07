@@ -4,7 +4,6 @@ import Nav from "./Nav";
 function Header() {
     return (
         <header>
-            <h1>This is header</h1>
             <Nav />
         </header>
     );
