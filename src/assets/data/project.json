@@ -1,8 +1,51 @@
+
 [
     {
-        "description": "Something",
+        "title": "Expense Tracker App",
+        "description": "This is a web application that allows users to track their expenses and income. The user can create a new account, sign in, and sign out. The user can add an expense, edit an expense, delete an expense, and view a pie chart of their expenses.",
         "githubLink": "https://github.com/TigranBalayan10/expense-tracker",
-        "language": ["JavaScript", "Node.js", "Express", "MySql", "Bootstrap", "CSS", "HTML"]
+        "demoLink": "https://floating-dusk-25843.herokuapp.com/",
+        "image": "expense-tracker",
+        "language": ["Node.js", "Express", "MySql", "Handlebars"]
+    },
+    {
+        "title": "Flight Weather App",
+        "description": "The app allows the user to give a single input (Flight No.) to return multiple results.These results include flight information as well as COVID and weather information of the destination. User can also change theme from light to dark by clicking same button in the center.",
+        "githubLink": "https://github.com/johnnycarpio/flight-weather-app",
+        "demoLink": "https://johnnycarpio.github.io/flight-weather-app/",
+        "image": "flight-weather-app",
+        "language": ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    },
+    {
+        "title": "Easy Budget",
+        "description": "Website/app capable of loading when offline and receive data. After going online the data push to the database, which gives user experience where user doesn't have to worry about bad or no network.",
+        "githubLink": "https://github.com/TigranBalayan10/easy-budget",
+        "demoLink": "https://warm-reef-99168.herokuapp.com/",
+        "image": "easy-budget",
+        "language": ["Node.js", "Javascript", "MongoDB", "Mongoose"]
+    },
+    {
+        "title": "Friend Zone API",
+        "description": "Database for social network website, with users, thoughts, reactions and friends.",
+        "githubLink": "https://github.com/TigranBalayan10/friend-zone-api",
+        "demoLink": "https://clipchamp.com/watch/G26a5GWiEu2",
+        "image": "friend-zone",
+        "language": ["Node.js", "Javascript", "MongoDB", "Mongoose"]
+    },
+    {
+        "title": "Oh Snap!",
+        "description": "Website created withReact for showcasing photos of an artist. The user can search for photos of an artist and view them in modal. Contact me section allows user to contatc artist and send a message.",
+        "githubLink": "https://github.com/TigranBalayan10/photo-port",
+        "demoLink": "https://tigranbalayan10.github.io/photo-port/",
+        "image": "photo-port",
+        "language": ["Node.js", "Javascript", "React"]
+    },
+    {
+        "title": "Ecommerce Organizer",
+        "description": "Database for e-commerce website with routes for products, categories and tags.",
+        "githubLink": "https://github.com/TigranBalayan10/ecommerce-organizer",
+        "demoLink": "https://youtu.be/d78OLxBwdiU",
+        "image": "ecommerce",
+        "language": ["Node.js", "Javascript", "MySql"]
     }
 ]
-
