@@ -9,7 +9,7 @@ function Project() {
   console.log(Data);
   return (
     <div class="flex justify-center grid-cols-4 gap-4 flex-wrap mt-8">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-900">
         <img
           class="w-full"
           src={require(`../assets/images/expense-tracker.jpg`)}
@@ -19,14 +19,14 @@ function Project() {
           <div class="font-bold text-xl mb-2 text-white">
             Expense Tracker App
           </div>
-          <a href="https://github.com/TigranBalayan10/expense-tracker">
+          <a href="https://github.com/TigranBalayan10/expense-tracker" target="_blank">
             <FontAwesomeIcon
               className="text-gray-600 hover:text-zinc-900 mb-2"
               icon={faGithub}
               size="3x"
               id="icon-git"
             ></FontAwesomeIcon>
-            <a href="https://floating-dusk-25843.herokuapp.com/">
+            <a href="https://floating-dusk-25843.herokuapp.com/" target="_blank">
               <FontAwesomeIcon
                 icon={faFirefoxBrowser}
                 size="3x"

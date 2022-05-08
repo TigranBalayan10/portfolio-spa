@@ -10,12 +10,11 @@ function Footer() {
   return (
     <footer>
       <div class="flex items-center justify-center gap-6 m-5">
-        <a href="https://github.com/TigranBalayan10">
+        <a href="https://github.com/TigranBalayan10" target="_blank">
           <FontAwesomeIcon
             icon={faGithub}
             size="4x"
             className="text-gray-600 hover:text-zinc-900"
-            target="_blank"
           ></FontAwesomeIcon>
         </a>
         <a href="https://twitter.com/Tiko_102" target="_blank">
@@ -23,23 +22,23 @@ function Footer() {
             icon={faTwitter}
             size="4x"
             className="text-gray-600 hover:text-blue-700"
-            
           ></FontAwesomeIcon>
         </a>
-        <a href="https://www.facebook.com/tigran.balayan.1">
+        <a href="https://www.facebook.com/tigran.balayan.1" target="_blank">
           <FontAwesomeIcon
             icon={faFacebook}
             size="4x"
             className="text-gray-600 hover:text-blue-600"
-            target="_blank"
           ></FontAwesomeIcon>
         </a>
-        <a href="https://www.facebook.com/tigran.balayan.1">
+        <a
+          href="https://www.linkedin.com/in/tigran-balayan-33768a132/"
+          target="_blank"
+        >
           <FontAwesomeIcon
             icon={faLinkedin}
             size="4x"
             className="text-gray-600 hover:text-blue-400"
-            target="_blank"
           ></FontAwesomeIcon>
         </a>
       </div>
