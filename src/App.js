@@ -9,12 +9,11 @@ import Resume from "./Pages/Resume";
 import "./index.css";
 
 function App() {
-
   return (
     <Router>
-      <Header
-      />
-      <main>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-1">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
@@ -22,8 +21,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }

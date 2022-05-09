@@ -4,39 +4,46 @@ import "../index.css";
 
 function Nav() {
   return (
-    <nav class="flex items-center justify-between flex-wrap p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <Link to="/contact" class="font-semibold text-lg tracking-tight">Tigran Balayan</Link>
+    <nav className="container flex justify-between flex-wrap p-6">
+      <div className="flex items-center text-white mr-6">
+        <img
+          src={require("../assets/images/favicon.ico")}
+          alt="logo"
+          className="w-10 mr-3"
+        />
+        <Link to="/about" className="font-semibold text-2xl tracking-tight">
+          Tigran's Portfolio
+        </Link>
       </div>
-      <ul class="flex justify-evenly gap-20 mr-10">
-        <li class="mr-8">
+      <ul className="flex shrink-0 justify-evenly gap-20 mr-10">
+        <li className="mr-8">
           <Link
             to="/about"
-            class="flex text-white text-lg text-bold hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
+            className="flex text-white text-lg text-bold hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
           >
             About Me
           </Link>
         </li>
-        <li class="mr-8">
+        <li className="mr-8">
           <Link
             to="/project"
-            class="flex text-white text-lg text-bold hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900"
+            className="flex text-white text-lg text-bold hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
           >
-            Project
+            Projects
           </Link>
         </li>
-        <li class="mr-8">
+        <li className="mr-8">
           <Link
             to="/contact"
-            class="flex text-white text-bold text-lg hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900"
+            className="flex text-white text-bold text-lg hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
           >
             Contact
           </Link>
         </li>
-        <li class="mr-8">
+        <li className="mr-8">
           <Link
             to="/resume"
-            class="flex text-white text-bold text-lg hover:bg-neutral-900 rounded p-2 focus:bg-neutral-900"
+            className="flex text-white text-bold text-lg hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
           >
             Resume
           </Link>

@@ -9,7 +9,7 @@ function Project() {
   return (
     <div className="flex justify-center grid-cols-4 gap-4 flex-wrap mt-8">
       {Data.map((projects) => (
-        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-blue-900">
+        <div className="max-w-sm rounded overflow-hidden border shadow-lg shadow-indigo-500/40 bg-blue-900">
           <img
             className="w-140 h-81"
             src={require(`../assets/images/${projects.image}.jpg`)}
@@ -22,18 +22,28 @@ function Project() {
             >
               {projects.title}
             </div>
-            <a href={projects.githubLink} key={projects.name} target="_blank">
+            <a
+              href={projects.githubLink}
+              key={projects.name}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
-                className="text-gray-600 hover:text-zinc-900 mb-2"
+                className="text-gray-200 hover:text-zinc-900 mb-2"
                 icon={faGithub}
                 size="3x"
                 id="icon-git"
               ></FontAwesomeIcon>
-              <a href={projects.demoLink} key={projects.name} target="_blank">
+              <a
+                href={projects.demoLink}
+                key={projects.name}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faFirefoxBrowser}
                   size="3x"
-                  className="text-gray-600 hover:text-red-700 mb-2 ml-2"
+                  className="text-gray-200 hover:text-red-700 mb-2 ml-2"
                 ></FontAwesomeIcon>
               </a>
             </a>

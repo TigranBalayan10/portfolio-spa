@@ -2,11 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div class="flex justify-center p-8">
-      <div class="w-full md:w-1/2 p-4 bg-blue-900 rounded-3xl shadow-lg">
-        <img src={require(`../assets/images/7.jpg`)} class="rounded-3xl w-40 h-40 p-5" />
-        <h1 class="text-3xl font-bold text-white p-5">About Me</h1>
-        <div class="text-white p-5">
+    <div className="flex justify-center p-8">
+      <div className="w-full md:w-1/2 p-4 bg-blue-900 rounded-3xl shadow-lg">
+        <img src={require(`../assets/images/7.jpg`)} className="rounded-3xl w-40 h-40 p-5" />
+        <h1 className="text-3xl font-bold text-white p-5">About Me</h1>
+        <div className="text-white p-5">
           <p>
             My name is Tigran Balayan. I’m 37 years old. I’m in the US 7 years
             from Armenia. At 37 I decided to pursuit new career in
