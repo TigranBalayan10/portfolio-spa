@@ -16,7 +16,7 @@ function Nav() {
         </Link>
       </div>
       <ul className="flex shrink-0 justify-evenly gap-20 mr-10">
-        <li className="mr-8">
+        <li>
           <Link
             to="/about"
             className="flex text-white text-lg text-bold hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
@@ -24,7 +24,7 @@ function Nav() {
             About Me
           </Link>
         </li>
-        <li className="mr-8">
+        <li>
           <Link
             to="/project"
             className="flex text-white text-lg text-bold hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
@@ -32,7 +32,7 @@ function Nav() {
             Projects
           </Link>
         </li>
-        <li className="mr-8">
+        <li>
           <Link
             to="/contact"
             className="flex text-white text-bold text-lg hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
@@ -40,7 +40,7 @@ function Nav() {
             Contact
           </Link>
         </li>
-        <li className="mr-8">
+        <li>
           <Link
             to="/resume"
             className="flex text-white text-bold text-lg hover:bg-blue-900 rounded p-2 focus:bg-blue-900"
