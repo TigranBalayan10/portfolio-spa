@@ -102,11 +102,6 @@ function Resume() {
                 </li>
                 <li className="mb-2">
                   <span className="font-bold">
-                    Web Components, e.g. with StencilJS, LitElement
-                  </span>
-                </li>
-                <li className="mb-2">
-                  <span className="font-bold">
                     Prototyping and Wireframing, e.g. with Figma, Adobe XD
                   </span>
                 </li>
