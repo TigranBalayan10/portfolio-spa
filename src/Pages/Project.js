@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
@@ -14,6 +14,7 @@ function Project() {
             className="w-140 h-81"
             src={require(`../assets/images/${projects.image}.jpg`)}
             key={projects.image}
+            alt={`${projects.image}`}
           ></img>
           <div className="px-6 py-4">
             <div
