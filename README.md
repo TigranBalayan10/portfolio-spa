@@ -17,7 +17,7 @@ Portfolio webpage showcases Tigran's projects, has about me section, resume with
 
 ## Deployed link
 
-https://clipchamp.com/watch/G26a5GWiEu2
+https://tigranbalayan10.github.io/portfolio-spa/
 
 ## GitHub Repository Link
 
