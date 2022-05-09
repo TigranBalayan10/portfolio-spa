@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-spa/static/css/main.c2d8dc24.css",
+    "main.js": "/portfolio-spa/static/js/main.ff01b31a.js",
+    "static/js/787.8e7b9eeb.chunk.js": "/portfolio-spa/static/js/787.8e7b9eeb.chunk.js",
+    "static/media/background.jpg": "/portfolio-spa/static/media/background.97dd2755c0a00e47e77a.jpg",
+    "static/media/photo-port.jpg": "/portfolio-spa/static/media/photo-port.4967a6fd9350de94ae7a.jpg",
+    "static/media/expense-tracker.jpg": "/portfolio-spa/static/media/expense-tracker.778baa8808e30316171e.jpg",
+    "static/media/flight-weather-app.jpg": "/portfolio-spa/static/media/flight-weather-app.7d086ef1ccce7ed943b3.jpg",
+    "static/media/mockup.jpg": "/portfolio-spa/static/media/mockup.b5b44535fcb09cbfb40c.jpg",
+    "static/media/friend-zone.jpg": "/portfolio-spa/static/media/friend-zone.48eb4890c957a42b5834.jpg",
+    "static/media/ecommerce.jpg": "/portfolio-spa/static/media/ecommerce.a01e224864dfcf9c36bc.jpg",
+    "static/media/easy-budget.jpg": "/portfolio-spa/static/media/easy-budget.82057ad957c9012f7d54.jpg",
+    "static/media/favicon.ico": "/portfolio-spa/static/media/favicon.699cfb4969f405c64845.ico",
+    "static/media/7.jpg": "/portfolio-spa/static/media/7.aac3f23a18191be0103d.jpg",
+    "index.html": "/portfolio-spa/index.html",
+    "main.c2d8dc24.css.map": "/portfolio-spa/static/css/main.c2d8dc24.css.map",
+    "main.ff01b31a.js.map": "/portfolio-spa/static/js/main.ff01b31a.js.map",
+    "787.8e7b9eeb.chunk.js.map": "/portfolio-spa/static/js/787.8e7b9eeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2d8dc24.css",
+    "static/js/main.ff01b31a.js"
+  ]
+}
