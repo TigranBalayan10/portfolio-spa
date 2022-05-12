@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Header />
+        
         <main className="flex-1">
           <Routes>
             <Route path="/portfolio-spa" element={<About />} />
