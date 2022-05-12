@@ -33,11 +33,13 @@ function Nav() {
       <div className="md:flex items-center justify-between bg-black py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
           {" "}
-          <img
-            src={require("../assets/images/favicon.ico")}
-            alt="logo"
-            className="w-10 mr-3"
-          />
+          <Link to="/about">
+            <img
+              src={require("../assets/images/favicon.ico")}
+              alt="logo"
+              className="w-10 mr-3"
+            />
+          </Link>
           <Link
             to="/about"
             className="font-semibold text-2xl tracking-tight text-white"
@@ -49,9 +51,7 @@ function Nav() {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-white"
         >
-          <FontAwesomeIcon
-            icon={open ? faXmark : faBars}
-          />
+          <FontAwesomeIcon icon={open ? faXmark : faBars} />
         </div>
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute gap-10 md:static bg-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-200 ease-in ${
@@ -63,6 +63,7 @@ function Nav() {
               <Link
                 to={link.path}
                 className="text-white hover:text-gray-700 focus:text-gray-700 duration-500"
+                onClick={() => setOpen(false)}
               >
                 {link.name}
               </Link>
