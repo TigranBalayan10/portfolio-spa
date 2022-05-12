@@ -7,6 +7,7 @@
 ## Purpose
 
 Portfolio webpage showcases Tigran's projects, has about me section, resume with detailed fullstack developer skills and contact me section with input fields.
+Smaller screens supported by making nav bar a hamburger menu.
 
 ## Built With
 
