@@ -1,6 +1,14 @@
 
 [
     {
+        "title": "Property Management App",
+        "description": "Proper Management is a convenient online platform that helps property owners to manage their properties and tenants. It is also a tool to help tenants to pay their rent, and request maintenance.",
+        "githubLink": "https://github.com/TigranBalayan10/proper-management",
+        "demoLink": "https://shielded-lake-39604.herokuapp.com",
+        "image": "propper-manage",
+        "language": ["Node.js", "MongoDB", "GraphQL", "React", "TailwindCSS"]
+    },
+    {
         "title": "Expense Tracker App",
         "description": "This is a web application that allows users to track their expenses and income. The user can create a new account, sign in, and sign out. The user can add an expense, edit an expense, delete an expense, and view a pie chart of their expenses.",
         "githubLink": "https://github.com/TigranBalayan10/expense-tracker",
@@ -15,14 +23,6 @@
         "demoLink": "https://johnnycarpio.github.io/flight-weather-app/",
         "image": "flight-weather-app",
         "language": ["HTML", "CSS", "Bootstrap", "JavaScript"]
-    },
-    {
-        "title": "Easy Budget",
-        "description": "Website/app capable of loading when offline and receive data. After going online the data push to the database, which gives user experience where user doesn't have to worry about bad or no network.",
-        "githubLink": "https://github.com/TigranBalayan10/easy-budget",
-        "demoLink": "https://warm-reef-99168.herokuapp.com/",
-        "image": "easy-budget",
-        "language": ["Node.js", "Javascript", "MongoDB", "Mongoose"]
     },
     {
         "title": "Friend Zone API",
