@@ -22,17 +22,6 @@ function Footer() {
           ></FontAwesomeIcon>
         </a>
         <a
-          href="https://twitter.com/Tiko_102"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon
-            icon={faTwitter}
-            size="4x"
-            className="text-gray-600 hover:text-blue-700"
-          ></FontAwesomeIcon>
-        </a>
-        <a
           href="https://www.facebook.com/tigran.balayan.1"
           target="_blank"
           rel="noopener noreferrer"

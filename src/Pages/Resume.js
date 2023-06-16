@@ -124,7 +124,7 @@ function Resume() {
               </div>
               <div className="flex justify-center mt-3">
                 <a
-                  href="https://drive.google.com/file/d/0B7_yyuTYxvngWUxDNE9nX2dUdWs/view?usp=sharing&resourcekey=0-jsm6w78uSGVEUhEOaJUP7w"
+                  href="https://drive.google.com/file/d/1MYlpoGXO7pj_fXak_mFGTFsfRl3_Cwn9/view?usp=drive_link"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
