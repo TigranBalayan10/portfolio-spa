@@ -1,10 +1,18 @@
 
 [
     {
+        "title": "Luxury Car Service App",
+        "description": "This is a full-stack web application that allows users to book a luxury car service. The user can order specific ride by choosing a car, date, time, and location. Depending on the distance or time of the ride, the user will be charged a different amount. Also redirect to the payment page, where the user can pay for the ride.",
+        "githubLink": "https://github.com/TigranBalayan10/bm-limo",
+        "demoLink": "https://beverly-motors-db12ef7ee760.herokuapp.com/",
+        "image": "bm-limo",
+        "language": ["Node.js", "MongoDB", "GraphQL", "React", "TailwindCSS", "Stripe"]
+    },
+    {
         "title": "Property Management App",
         "description": "Proper Management is a convenient online platform that helps property owners to manage their properties and tenants. It is also a tool to help tenants to pay their rent, and request maintenance.",
         "githubLink": "https://github.com/TigranBalayan10/proper-management",
-        "demoLink": "https://shielded-lake-39604.herokuapp.com",
+        "demoLink": "https://proper-management-ee65645f1b32.herokuapp.com/",
         "image": "propper-manage",
         "language": ["Node.js", "MongoDB", "GraphQL", "React", "TailwindCSS"]
     },
@@ -12,7 +20,7 @@
         "title": "Expense Tracker App",
         "description": "This is a web application that allows users to track their expenses and income. The user can create a new account, sign in, and sign out. The user can add an expense, edit an expense, delete an expense, and view a pie chart of their expenses.",
         "githubLink": "https://github.com/TigranBalayan10/expense-tracker",
-        "demoLink": "https://floating-dusk-25843.herokuapp.com/",
+        "demoLink": "https://expense-tracker-tb-752b2e95f84d.herokuapp.com/",
         "image": "expense-tracker",
         "language": ["Node.js", "Express", "MySql", "Handlebars"]
     },
@@ -31,14 +39,6 @@
         "demoLink": "https://clipchamp.com/watch/G26a5GWiEu2",
         "image": "friend-zone",
         "language": ["Node.js", "Javascript", "MongoDB", "Mongoose"]
-    },
-    {
-        "title": "Oh Snap!",
-        "description": "Website created withReact for showcasing photos of an artist. The user can search for photos of an artist and view them in modal. Contact me section allows user to contatc artist and send a message.",
-        "githubLink": "https://github.com/TigranBalayan10/photo-port",
-        "demoLink": "https://tigranbalayan10.github.io/photo-port/",
-        "image": "photo-port",
-        "language": ["Node.js", "Javascript", "React"]
     },
     {
         "title": "Ecommerce Organizer",
