@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-spa/static/css/main.b534879e.css",
-    "main.js": "/portfolio-spa/static/js/main.5bfd0ccf.js",
+    "main.js": "/portfolio-spa/static/js/main.761a5302.js",
     "static/js/787.8e7b9eeb.chunk.js": "/portfolio-spa/static/js/787.8e7b9eeb.chunk.js",
     "static/media/propper-manage.jpg": "/portfolio-spa/static/media/propper-manage.7bc46e8d9ce390c1bde5.jpg",
     "static/media/background.jpg": "/portfolio-spa/static/media/background.97dd2755c0a00e47e77a.jpg",
@@ -11,16 +11,17 @@
     "static/media/mockup.jpg": "/portfolio-spa/static/media/mockup.b5b44535fcb09cbfb40c.jpg",
     "static/media/friend-zone.jpg": "/portfolio-spa/static/media/friend-zone.48eb4890c957a42b5834.jpg",
     "static/media/ecommerce.jpg": "/portfolio-spa/static/media/ecommerce.a01e224864dfcf9c36bc.jpg",
+    "static/media/bm-limo.jpg": "/portfolio-spa/static/media/bm-limo.c2b508a6760dba16b8ba.jpg",
     "static/media/easy-budget.jpg": "/portfolio-spa/static/media/easy-budget.82057ad957c9012f7d54.jpg",
     "static/media/favicon.ico": "/portfolio-spa/static/media/favicon.699cfb4969f405c64845.ico",
     "static/media/7.jpg": "/portfolio-spa/static/media/7.aac3f23a18191be0103d.jpg",
     "index.html": "/portfolio-spa/index.html",
     "main.b534879e.css.map": "/portfolio-spa/static/css/main.b534879e.css.map",
-    "main.5bfd0ccf.js.map": "/portfolio-spa/static/js/main.5bfd0ccf.js.map",
+    "main.761a5302.js.map": "/portfolio-spa/static/js/main.761a5302.js.map",
     "787.8e7b9eeb.chunk.js.map": "/portfolio-spa/static/js/787.8e7b9eeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b534879e.css",
-    "static/js/main.5bfd0ccf.js"
+    "static/js/main.761a5302.js"
   ]
 }
