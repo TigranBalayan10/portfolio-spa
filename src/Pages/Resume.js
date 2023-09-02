@@ -38,6 +38,12 @@ function Resume() {
                     <li className="mb-2">
                       <span className="font-bold">CSS</span>
                     </li>
+                    </li>
+                      <span className="font-bold">React</span>
+                    <li className="mb-2">
+                    <li className="mb-2">
+                    </li>
+                      <span className="font-bold">Next.js</span>
                     <li className="mb-2">
                       <span className="font-bold">TailwindCSS</span>
                     </li>
@@ -46,9 +52,6 @@ function Resume() {
                     </li>
                     <li className="mb-2">
                       <span className="font-bold">Bulma</span>
-                    </li>
-                    <li className="mb-2">
-                      <span className="font-bold">React</span>
                     </li>
                   </ul>
                 </div>
@@ -61,6 +64,9 @@ function Resume() {
                   <ul className="list-disc list-inside">
                     <li className="mb-2">
                       <span className="font-bold">Javascript</span>
+                    </li>
+                    <li className="mb-2">
+                      <span className="font-bold">TypeScript</span>
                     </li>
                     <li className="mb-2">
                       <span className="font-bold">SQL</span>
