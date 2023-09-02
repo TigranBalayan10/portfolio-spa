@@ -38,12 +38,12 @@ function Resume() {
                     <li className="mb-2">
                       <span className="font-bold">CSS</span>
                     </li>
-                    </li>
+                    <li className="mb-2">
                       <span className="font-bold">React</span>
-                    <li className="mb-2">
-                    <li className="mb-2">
                     </li>
+                    <li className="mb-2">
                       <span className="font-bold">Next.js</span>
+                    </li>
                     <li className="mb-2">
                       <span className="font-bold">TailwindCSS</span>
                     </li>
